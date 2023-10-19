@@ -1,12 +1,17 @@
-
 header {
     background-color: rgb(39, 124, 60);
     height: 50px;
+    border-bottom: 5px solid rgb(121, 79, 55);
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
 }
 
 .top {
@@ -18,29 +23,53 @@ header {
 
 section {
     background-color: beige;
-    height: 500px;
+
 }
 
 img {
     display: block;
     margin: 0 auto;
-}
-
-.h1 {
-    text-align: center;
+    box-shadow: 2px 2px 5px black;
 }
 
 p {
+    padding: 20px;
     text-align: center;
 }
 
 li {
     display: inline;
-    padding: 0px 20px;
+    padding: 2em;
     text-decoration: none;
-  }
+    text-shadow: 1px 1px 1px black;
+}
 
-  a {
+a {
     text-decoration: none;
     color: #FDF8F5;
-  }
+}
+
+.content {
+    text-align: center;
+    padding: 15px;
+    height: 638px;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px black;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 9px;
+    color: white;
+    background-color: #be8a6b;
+    height: 150px;
+    border-top: 2px solid rgb(121, 79, 55);
+}
+
+footer {
+    background-color: rgb(39, 124, 60);
+    border-top: 5px solid rgb(121, 79, 55);
+    height: 50px;
+}
